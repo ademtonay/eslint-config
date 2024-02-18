@@ -4,14 +4,7 @@ export default {
     browser: true, // enable browser globals
     node: true, // enable node globals
   },
-  plugins: ["@typescript-eslint"],
-  parser: "@typescript-eslint/parser",
-  extends: [
-    "standard",
-    "plugin:import/errors",
-    "plugin:import/warnings",
-    "plugin:@typescript-eslint/recommended",
-  ],
+  extends: ["standard", "plugin:import/errors", "plugin:import/warnings"],
   plugins: ["unicorn"],
   settings: {
     "import/resolver": {
@@ -59,13 +52,6 @@ export default {
     "no-spaced-func": "error",
     "object-curly-spacing": ["error", "always"],
     "no-return-await": "off",
-    "prefer-const": [
-      "error",
-      {
-        destructuring: "any",
-        ignoreReadBeforeAssign: false,
-      },
-    ],
 
     // es6
     "no-var": "error",
@@ -115,19 +101,6 @@ export default {
     "require-await": "off",
     "no-return-assign": "off",
     "operator-linebreak": [2, "before"],
-
-    // TS
-    "@typescript-eslint/no-unused-vars": [2, { args: "none" }],
-    "@typescript-eslint/indent": ["error", 2],
-    "@typescript-eslint/member-delimiter-style": [
-      "error",
-      { multiline: { delimiter: "none" } },
-    ],
-    "@typescript-eslint/type-annotation-spacing": ["error", {}],
-    "@typescript-eslint/camelcase": "off",
-    "@typescript-eslint/explicit-function-return-type": "off",
-    "@typescript-eslint/explicit-member-accessibility": "off",
-    "@typescript-eslint/no-explicit-any": "off",
 
     // unicorns
     // Pass error message when throwing errors

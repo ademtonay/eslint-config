@@ -3,7 +3,7 @@ export default {
   parserOptions: {
     parser: "@typescript-eslint/parser",
   },
-  extends: ["@ademtonay/eslint-config", "plugin:vue/recommended"],
+  extends: ["@ademtonay/eslint-config-ts", "plugin:vue/recommended"],
   plugins: ["vue"],
   rules: {},
 }

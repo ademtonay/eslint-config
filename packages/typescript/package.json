@@ -1,7 +1,6 @@
 {
-  "name": "@ademtonay/eslint-config-vue",
-  "type": "module",
-  "version": "0.1.1",
+  "name": "@ademtonay/eslint-config-ts",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "keywords": [],
@@ -13,13 +12,20 @@
   "files": [
     "index.js"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.56.0",
+    "typescript": ">=5.3.3"
+  },
   "devDependencies": {
     "eslint": "^8.56.0",
     "typescript": "^5.3.3"
   },
   "dependencies": {
     "@ademtonay/eslint-config": "^0.1.1",
-    "eslint-plugin-nuxt": "^4.0.0",
-    "eslint-plugin-vue": "^9.21.1"
+    "@typescript-eslint/eslint-plugin": "^7.0.1",
+    "@typescript-eslint/parser": "^7.0.1"
   }
 }
