@@ -2,8 +2,8 @@ module.exports = {
   plugins: ['@typescript-eslint'],
   parser: '@typescript-eslint/parser',
   extends: [
-    '@ademtonay/eslint-config',
     'plugin:@typescript-eslint/recommended',
+    '@ademtonay/eslint-config',
   ],
   rules: {
     // TS
