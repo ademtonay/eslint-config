@@ -6,8 +6,11 @@ settings:
 
 dependencies:
   '@ademtonay/eslint-config':
-    specifier: ^0.1.1
-    version: 0.1.1(eslint-plugin-n@16.6.2)(eslint@8.56.0)(typescript@5.3.3)
+    specifier: ^0.2.0
+    version: 0.2.0(eslint-plugin-n@16.6.2)(eslint@8.56.0)(typescript@5.3.3)
+  '@ademtonay/eslint-config-ts':
+    specifier: ^0.2.0
+    version: 0.2.0(eslint-plugin-n@16.6.2)(eslint@8.56.0)(typescript@5.3.3)
   eslint-plugin-nuxt:
     specifier: ^4.0.0
     version: 4.0.0(eslint@8.56.0)
@@ -29,8 +32,26 @@ packages:
     resolution: {integrity: sha512-1Yjs2SvM8TflER/OD3cOjhWWOZb58A2t7wpE2S9XfBYTiIl+XFhQG2bjy4Pu1I+EAlCNUzRDYDdFwFYUKvXcIA==}
     engines: {node: '>=0.10.0'}
 
-  /@ademtonay/eslint-config@0.1.1(eslint-plugin-n@16.6.2)(eslint@8.56.0)(typescript@5.3.3):
-    resolution: {integrity: sha512-ALZREjNNDem8u5klU61yftEnZDkgNBmJRbgJGdgheW0tai4abjeFecmxmr/gGww+I1oodLksO96HATwN9QX7yA==}
+  /@ademtonay/eslint-config-ts@0.2.0(eslint-plugin-n@16.6.2)(eslint@8.56.0)(typescript@5.3.3):
+    resolution: {integrity: sha512-re8Yl5mIPxB0vQw0tArmS1N+krD/lTGev8QweOl1rpOJcnZQIB4Yy1iLQGpkxjs3cni/fTD8cow2BIrZ+cdZVQ==}
+    peerDependencies:
+      eslint: '>=8.56.0'
+      typescript: '>=5.3.3'
+    dependencies:
+      '@ademtonay/eslint-config': 0.2.0(eslint-plugin-n@16.6.2)(eslint@8.56.0)(typescript@5.3.3)
+      '@typescript-eslint/eslint-plugin': 7.0.1(@typescript-eslint/parser@7.0.1)(eslint@8.56.0)(typescript@5.3.3)
+      '@typescript-eslint/parser': 7.0.1(eslint@8.56.0)(typescript@5.3.3)
+      eslint: 8.56.0
+      typescript: 5.3.3
+    transitivePeerDependencies:
+      - eslint-import-resolver-typescript
+      - eslint-import-resolver-webpack
+      - eslint-plugin-n
+      - supports-color
+    dev: false
+
+  /@ademtonay/eslint-config@0.2.0(eslint-plugin-n@16.6.2)(eslint@8.56.0)(typescript@5.3.3):
+    resolution: {integrity: sha512-7u+aFF50/t0wh1hO/d8P+9sn2iRmCYW25mm6/oEn/z0L4UejnspmId+aNI6UuNl2EYFuRO9FW7BZcIBiKIpygw==}
     peerDependencies:
       eslint: '>=8.56.0'
     dependencies:
