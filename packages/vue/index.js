@@ -5,5 +5,14 @@ module.exports = {
   },
   extends: ['plugin:vue/recommended', '@ademtonay/eslint-config-ts'],
   plugins: ['vue'],
-  rules: {},
+  rules: {
+    'vue/max-attributes-per-line': [
+      'warn',
+      {
+        singleline: {
+          max: 5,
+        },
+      },
+    ],
+  },
 }
