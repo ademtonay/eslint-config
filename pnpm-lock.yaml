@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   '@ademtonay/eslint-config':
-    specifier: ^0.1.1
-    version: 0.1.1(eslint-plugin-n@16.6.2)(eslint@8.56.0)(typescript@5.3.3)
+    specifier: ^0.2.0
+    version: link:packages/common
   '@typescript-eslint/eslint-plugin':
     specifier: ^7.0.1
     version: 7.0.1(@typescript-eslint/parser@7.0.1)(eslint@8.56.0)(typescript@5.3.3)
@@ -50,27 +50,6 @@ packages:
   /@aashutoshrathi/word-wrap@1.2.6:
     resolution: {integrity: sha512-1Yjs2SvM8TflER/OD3cOjhWWOZb58A2t7wpE2S9XfBYTiIl+XFhQG2bjy4Pu1I+EAlCNUzRDYDdFwFYUKvXcIA==}
     engines: {node: '>=0.10.0'}
-    dev: true
-
-  /@ademtonay/eslint-config@0.1.1(eslint-plugin-n@16.6.2)(eslint@8.56.0)(typescript@5.3.3):
-    resolution: {integrity: sha512-ALZREjNNDem8u5klU61yftEnZDkgNBmJRbgJGdgheW0tai4abjeFecmxmr/gGww+I1oodLksO96HATwN9QX7yA==}
-    peerDependencies:
-      eslint: '>=8.56.0'
-    dependencies:
-      '@typescript-eslint/eslint-plugin': 7.0.1(@typescript-eslint/parser@7.0.1)(eslint@8.56.0)(typescript@5.3.3)
-      '@typescript-eslint/parser': 7.0.1(eslint@8.56.0)(typescript@5.3.3)
-      eslint: 8.56.0
-      eslint-config-standard: 17.1.0(eslint-plugin-import@2.29.1)(eslint-plugin-n@16.6.2)(eslint-plugin-promise@6.1.1)(eslint@8.56.0)
-      eslint-plugin-import: 2.29.1(@typescript-eslint/parser@7.0.1)(eslint@8.56.0)
-      eslint-plugin-node: 11.1.0(eslint@8.56.0)
-      eslint-plugin-promise: 6.1.1(eslint@8.56.0)
-      eslint-plugin-unicorn: 51.0.1(eslint@8.56.0)
-    transitivePeerDependencies:
-      - eslint-import-resolver-typescript
-      - eslint-import-resolver-webpack
-      - eslint-plugin-n
-      - supports-color
-      - typescript
     dev: true
 
   /@babel/code-frame@7.23.5:

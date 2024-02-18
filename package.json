@@ -12,7 +12,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@ademtonay/eslint-config": "^0.1.1",
+    "@ademtonay/eslint-config": "^0.2.0",
     "@typescript-eslint/eslint-plugin": "^7.0.1",
     "@typescript-eslint/parser": "^7.0.1",
     "eslint": "^8.56.0",
