@@ -6,11 +6,11 @@ settings:
 
 dependencies:
   '@ademtonay/eslint-config':
-    specifier: ^0.2.1
-    version: 0.2.1(eslint-plugin-n@16.6.2)(eslint@8.56.0)(typescript@5.3.3)
+    specifier: ^0.2.2
+    version: 0.2.2(eslint-plugin-n@16.6.2)(eslint@8.56.0)(typescript@5.3.3)
   '@ademtonay/eslint-config-ts':
-    specifier: ^0.2.1
-    version: 0.2.1(eslint-plugin-n@16.6.2)(eslint@8.56.0)(typescript@5.3.3)
+    specifier: ^0.2.3
+    version: 0.2.3(eslint-plugin-n@16.6.2)(eslint@8.56.0)(typescript@5.3.3)
   eslint-plugin-nuxt:
     specifier: ^4.0.0
     version: 4.0.0(eslint@8.56.0)
@@ -32,13 +32,13 @@ packages:
     resolution: {integrity: sha512-1Yjs2SvM8TflER/OD3cOjhWWOZb58A2t7wpE2S9XfBYTiIl+XFhQG2bjy4Pu1I+EAlCNUzRDYDdFwFYUKvXcIA==}
     engines: {node: '>=0.10.0'}
 
-  /@ademtonay/eslint-config-ts@0.2.1(eslint-plugin-n@16.6.2)(eslint@8.56.0)(typescript@5.3.3):
-    resolution: {integrity: sha512-HftbU2/+gCsp8rF2mHxNfQIEe+UBTW0u1skN0UOvCeq0eoAQLPjkNEB1cEDRFVzJlUi/84cpuunm2Sgq0QBlEQ==}
+  /@ademtonay/eslint-config-ts@0.2.3(eslint-plugin-n@16.6.2)(eslint@8.56.0)(typescript@5.3.3):
+    resolution: {integrity: sha512-zudaKH1G+lViTZFfGYYp/ZClsRljz1EOpIODQdX/JWf3Gh8jWScdHCPZ5Q22f9An024Y0c2Vm5ZsEDwUrzbqjA==}
     peerDependencies:
       eslint: '>=8.56.0'
       typescript: '>=5.3.3'
     dependencies:
-      '@ademtonay/eslint-config': 0.2.1(eslint-plugin-n@16.6.2)(eslint@8.56.0)(typescript@5.3.3)
+      '@ademtonay/eslint-config': 0.2.2(eslint-plugin-n@16.6.2)(eslint@8.56.0)(typescript@5.3.3)
       '@typescript-eslint/eslint-plugin': 7.0.1(@typescript-eslint/parser@7.0.1)(eslint@8.56.0)(typescript@5.3.3)
       '@typescript-eslint/parser': 7.0.1(eslint@8.56.0)(typescript@5.3.3)
       eslint: 8.56.0
@@ -50,8 +50,8 @@ packages:
       - supports-color
     dev: false
 
-  /@ademtonay/eslint-config@0.2.1(eslint-plugin-n@16.6.2)(eslint@8.56.0)(typescript@5.3.3):
-    resolution: {integrity: sha512-wvgBevISVCLkVhT8v43MRDE7IHr5ICUN5bvtxwcwdA+wA8GTJyf0cfU/tqduCEAGHUbglkl/bFuqfkJPc3uapA==}
+  /@ademtonay/eslint-config@0.2.2(eslint-plugin-n@16.6.2)(eslint@8.56.0)(typescript@5.3.3):
+    resolution: {integrity: sha512-fL67oPoet9LN1ecrqS/G+zVufJPRnI7/1UkX9gc0BNT+veGdg6Ym0OLohkuZYngWsK4QnYK34q+sbBJjB+WQoA==}
     peerDependencies:
       eslint: '>=8.56.0'
     dependencies:
