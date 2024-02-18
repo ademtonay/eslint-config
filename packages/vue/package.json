@@ -1,0 +1,24 @@
+{
+  "name": "@ademtonay/eslint-config-vue",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Adem TONAY <ademtonay@gmail.com> (https://github.com/ademtonay/)",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  },
+  "dependencies": {
+    "@ademtonay/eslint-config": "^0.1.0",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "eslint-plugin-vue": "^9.21.1"
+  }
+}
