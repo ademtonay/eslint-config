@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.4](https://github.com/ademtonay/eslint-config/compare/v0.2.3...v0.2.4) (2024-02-18)
+
+
+### Bug Fixes
+
+* update ts config ([21ac9a0](https://github.com/ademtonay/eslint-config/commit/21ac9a0313f91d947dc14912d4034e129077aeea))
+
+
+
+
+
 ## [0.2.3](https://github.com/ademtonay/eslint-config/compare/v0.2.2...v0.2.3) (2024-02-18)
 
 
