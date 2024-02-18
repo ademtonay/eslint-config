@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.3](https://github.com/ademtonay/eslint-config/compare/v0.2.2...v0.2.3) (2024-02-18)
+
+
+### Bug Fixes
+
+* extends order ([90829ca](https://github.com/ademtonay/eslint-config/commit/90829caf3c7b58a9687ad93c7c1a634b530e90a1))
+* lint ([0fdf774](https://github.com/ademtonay/eslint-config/commit/0fdf7746e7401092fbe50ee90643e1738fcfe2b3))
+* **prettier:** update config ([80560d6](https://github.com/ademtonay/eslint-config/commit/80560d63c682579c9c58c840eab7895193bfae20))
+* update ts rules ([369ccbf](https://github.com/ademtonay/eslint-config/commit/369ccbf54e4344637cf6f8f27c7195b1d1ca4ab2))
+* update vue config ([2d2eeec](https://github.com/ademtonay/eslint-config/commit/2d2eeec89afb23bec226ef3714d85de68e690af3))
+
+
+
+
+
 ## [0.2.2](https://github.com/ademtonay/eslint-config/compare/v0.2.1...v0.2.2) (2024-02-18)
 
 **Note:** Version bump only for package @ademtonay/eslint-config
