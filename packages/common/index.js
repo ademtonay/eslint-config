@@ -1,4 +1,9 @@
 export default {
+  env: {
+    es6: true, // enable es6 syntax
+    browser: true, // enable browser globals
+    node: true, // enable node globals
+  },
   plugins: ["@typescript-eslint"],
   parser: "@typescript-eslint/parser",
   extends: [
