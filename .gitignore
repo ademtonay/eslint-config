@@ -77,3 +77,4 @@ dist
 .idea
 
 package-lock.json
+*.learna_backup
