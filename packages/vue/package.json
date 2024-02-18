@@ -1,7 +1,7 @@
 {
   "name": "@ademtonay/eslint-config-vue",
   "type": "module",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "",
   "main": "index.js",
   "keywords": [],
@@ -18,7 +18,7 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
-    "@ademtonay/eslint-config": "^0.1.1",
+    "@ademtonay/eslint-config": "^0.2.0",
     "eslint-plugin-nuxt": "^4.0.0",
     "eslint-plugin-vue": "^9.21.1"
   }
