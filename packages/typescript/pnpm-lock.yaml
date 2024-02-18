@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@ademtonay/eslint-config':
-    specifier: ^0.2.1
-    version: 0.2.1(eslint-plugin-n@16.6.2)(eslint@8.56.0)(typescript@5.3.3)
+    specifier: ^0.2.2
+    version: 0.2.2(eslint-plugin-n@16.6.2)(eslint@8.56.0)(typescript@5.3.3)
   '@typescript-eslint/eslint-plugin':
     specifier: ^7.0.1
     version: 7.0.1(@typescript-eslint/parser@7.0.1)(eslint@8.56.0)(typescript@5.3.3)
@@ -29,8 +29,8 @@ packages:
     resolution: {integrity: sha512-1Yjs2SvM8TflER/OD3cOjhWWOZb58A2t7wpE2S9XfBYTiIl+XFhQG2bjy4Pu1I+EAlCNUzRDYDdFwFYUKvXcIA==}
     engines: {node: '>=0.10.0'}
 
-  /@ademtonay/eslint-config@0.2.1(eslint-plugin-n@16.6.2)(eslint@8.56.0)(typescript@5.3.3):
-    resolution: {integrity: sha512-wvgBevISVCLkVhT8v43MRDE7IHr5ICUN5bvtxwcwdA+wA8GTJyf0cfU/tqduCEAGHUbglkl/bFuqfkJPc3uapA==}
+  /@ademtonay/eslint-config@0.2.2(eslint-plugin-n@16.6.2)(eslint@8.56.0)(typescript@5.3.3):
+    resolution: {integrity: sha512-fL67oPoet9LN1ecrqS/G+zVufJPRnI7/1UkX9gc0BNT+veGdg6Ym0OLohkuZYngWsK4QnYK34q+sbBJjB+WQoA==}
     peerDependencies:
       eslint: '>=8.56.0'
     dependencies:
